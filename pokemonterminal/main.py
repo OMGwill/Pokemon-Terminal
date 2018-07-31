@@ -105,7 +105,7 @@ def main(argv=None):
 #            ]
 #        print("Total of %d pokemon matched the filters. Chose %s" %
 #              (size, target.get_name().title()))
-         print("Chose %s" % (target.get_name().title())
+        print("Chose %s" % (target.get_name().title()))
 
     if options.dry_run:
         print("Dry run, exiting.")
