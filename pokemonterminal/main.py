@@ -97,12 +97,12 @@ def main(argv=None):
             print('A single pokemon matches the specified criteria: ')
         if size > Database.MAX_ID:
             print('No pokemon has been filtered...')
-        else:
-            # Print the list of filtered pokemon
-            [
-                print(f"#{pkmn.get_id()} - {pkmn.get_name().title()}")
-                for pkmn in Filter.filtered_list
-            ]
+#        else:
+#            # Print the list of filtered pokemon
+#            [
+#               print(f"#{pkmn.get_id()} - {pkmn.get_name().title()}")
+#                for pkmn in Filter.filtered_list
+#            ]
         print("Total of %d pokemon matched the filters. Chose %s" %
               (size, target.get_name().title()))
 
